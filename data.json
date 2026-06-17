@@ -1,0 +1,1307 @@
+{
+  "CANDIDATES": [
+    {
+      "id": 1,
+      "name": "Mchapa Kazi",
+      "party": "ODM Party",
+      "portrait": "👨‍💼",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "Mpenda Amani",
+      "party": "Wiper Party",
+      "portrait": "👨‍🏫",
+      "gender": "male"
+    },
+    {
+      "id": 3,
+      "name": "Mambo Mapya",
+      "party": "Ford-Kenya Party",
+      "portrait": "👨‍⚖️",
+      "gender": "male"
+    },
+    {
+      "id": 4,
+      "name": "Mama Upendo",
+      "party": "KANU Party",
+      "portrait": "👩‍⚕️",
+      "gender": "female"
+    },
+    {
+      "id": 5,
+      "name": "Mkenya Daima",
+      "party": "Jubilee Party",
+      "portrait": "👨‍🔬",
+      "gender": "male"
+    },
+    {
+      "id": 6,
+      "name": "Baraka Chui",
+      "party": "UDA Party",
+      "portrait": "👨‍✈️",
+      "gender": "male"
+    },
+    {
+      "id": 7,
+      "name": "Mama Baraka",
+      "party": "Independent",
+      "portrait": "👩‍💼",
+      "gender": "female"
+    }
+  ],
+  "CANDIDATE_COLORS": [
+    "#f58220",
+    "#8B1A1A",
+    "#EEEEEE",
+    "#cc1f28",
+    "#FFD700",
+    "#e8c22a",
+    "#888888"
+  ],
+  "PARTY_COLORS": {
+    "ODM Party": "#f58220",
+    "Wiper Party": "#8B1A1A",
+    "Ford-Kenya Party": "#EEEEEE",
+    "KANU Party": "#cc1f28",
+    "Jubilee Party": "#FFD700",
+    "UDA Party": "#e8c22a",
+    "Independent": "#888888"
+  },
+  "PARTY_SYMBOLS": {
+    "ODM Party": "🍊",
+    "Wiper Party": "☂️",
+    "Ford-Kenya Party": "🦁",
+    "KANU Party": "🐓",
+    "Jubilee Party": "🕊️",
+    "UDA Party": "🌾",
+    "Independent": "🏍️"
+  },
+  "POLLING_STATIONS": [
+    {
+      "id": 1,
+      "name": "ABC KATHITHYAMAA PRIMARY SCHOOL",
+      "code": "016077038100101",
+      "ward": "Kangundo North",
+      "registeredVoters": 503,
+      "lat": -1.221,
+      "lng": 37.298
+    },
+    {
+      "id": 2,
+      "name": "ABC KATHITHYAMAA PRIMARY SCHOOL",
+      "code": "016077038100102",
+      "ward": "Kangundo North",
+      "registeredVoters": 502,
+      "lat": -1.221,
+      "lng": 37.298
+    },
+    {
+      "id": 3,
+      "name": "MATUNGULU AIC PRIMARY SCHOOL",
+      "code": "016077038100201",
+      "ward": "Kangundo North",
+      "registeredVoters": 589,
+      "lat": -1.225,
+      "lng": 37.301
+    },
+    {
+      "id": 4,
+      "name": "MATUNGULU AIC PRIMARY SCHOOL",
+      "code": "016077038100202",
+      "ward": "Kangundo North",
+      "registeredVoters": 588,
+      "lat": -1.225,
+      "lng": 37.301
+    },
+    {
+      "id": 5,
+      "name": "KITWII BOYS PRIMARY SCHOOL",
+      "code": "016077038100301",
+      "ward": "Kangundo North",
+      "registeredVoters": 552,
+      "lat": -1.218,
+      "lng": 37.295
+    },
+    {
+      "id": 6,
+      "name": "KITWII BOYS PRIMARY SCHOOL",
+      "code": "016077038100302",
+      "ward": "Kangundo North",
+      "registeredVoters": 552,
+      "lat": -1.218,
+      "lng": 37.295
+    },
+    {
+      "id": 7,
+      "name": "KAWAUNI PRIMARY SCHOOL",
+      "code": "016077038100401",
+      "ward": "Kangundo North",
+      "registeredVoters": 374,
+      "lat": -1.23,
+      "lng": 37.292
+    },
+    {
+      "id": 8,
+      "name": "KANZALU HILL PRIMARY SCHOOL",
+      "code": "016077038100501",
+      "ward": "Kangundo North",
+      "registeredVoters": 351,
+      "lat": -1.215,
+      "lng": 37.305
+    },
+    {
+      "id": 9,
+      "name": "KANZALU HILL PRIMARY SCHOOL",
+      "code": "016077038100502",
+      "ward": "Kangundo North",
+      "registeredVoters": 351,
+      "lat": -1.215,
+      "lng": 37.305
+    },
+    {
+      "id": 10,
+      "name": "KIKAMBUANI PRIMARY SCHOOL",
+      "code": "016077038100601",
+      "ward": "Kangundo North",
+      "registeredVoters": 532,
+      "lat": -1.228,
+      "lng": 37.307
+    },
+    {
+      "id": 11,
+      "name": "KIKAMBUANI PRIMARY SCHOOL",
+      "code": "016077038100602",
+      "ward": "Kangundo North",
+      "registeredVoters": 532,
+      "lat": -1.228,
+      "lng": 37.307
+    },
+    {
+      "id": 12,
+      "name": "UNYUANI PRIMARY SCHOOL",
+      "code": "016077038100701",
+      "ward": "Kangundo North",
+      "registeredVoters": 422,
+      "lat": -1.232,
+      "lng": 37.299
+    },
+    {
+      "id": 13,
+      "name": "KWA NDIU PRIMARY SCHOOL",
+      "code": "016077038100801",
+      "ward": "Kangundo North",
+      "registeredVoters": 439,
+      "lat": -1.219,
+      "lng": 37.302
+    },
+    {
+      "id": 14,
+      "name": "KYELENDU PRIMARY SCHOOL",
+      "code": "016077038100901",
+      "ward": "Kangundo North",
+      "registeredVoters": 692,
+      "lat": -1.226,
+      "lng": 37.31
+    },
+    {
+      "id": 15,
+      "name": "ST. MARTIN KITWII PRIMARY SCHOOL",
+      "code": "016077038101001",
+      "ward": "Kangundo North",
+      "registeredVoters": 678,
+      "lat": -1.217,
+      "lng": 37.296
+    },
+    {
+      "id": 16,
+      "name": "MBILINI PRIMARY SCHOOL",
+      "code": "016077038101101",
+      "ward": "Kangundo North",
+      "registeredVoters": 379,
+      "lat": -1.234,
+      "lng": 37.304
+    },
+    {
+      "id": 17,
+      "name": "MBILINI PRIMARY SCHOOL",
+      "code": "016077038101102",
+      "ward": "Kangundo North",
+      "registeredVoters": 378,
+      "lat": -1.234,
+      "lng": 37.304
+    },
+    {
+      "id": 18,
+      "name": "MIKOIKONI DEB PRIMARY SCHOOL",
+      "code": "016077038101201",
+      "ward": "Kangundo North",
+      "registeredVoters": 618,
+      "lat": -1.229,
+      "lng": 37.308
+    },
+    {
+      "id": 19,
+      "name": "KIVULUNI PRIMARY SCHOOL",
+      "code": "016077038101301",
+      "ward": "Kangundo North",
+      "registeredVoters": 529,
+      "lat": -1.223,
+      "lng": 37.306
+    },
+    {
+      "id": 20,
+      "name": "KAMUTONGA PRIMARY SCHOOL",
+      "code": "016077038101401",
+      "ward": "Kangundo North",
+      "registeredVoters": 462,
+      "lat": -1.22,
+      "lng": 37.3
+    },
+    {
+      "id": 21,
+      "name": "ITUUSYA PRIMARY SCHOOL",
+      "code": "016077038101501",
+      "ward": "Kangundo North",
+      "registeredVoters": 529,
+      "lat": -1.227,
+      "lng": 37.309
+    },
+    {
+      "id": 22,
+      "name": "ST FRANCIS PRIMARY SCHOOL (MISYANI)",
+      "code": "016077038101601",
+      "ward": "Kangundo North",
+      "registeredVoters": 462,
+      "lat": -1.231,
+      "lng": 37.303
+    },
+    {
+      "id": 23,
+      "name": "ABC KATHITHYAMAA SECONDARY SCHOOL",
+      "code": "016077038101701",
+      "ward": "Kangundo North",
+      "registeredVoters": 400,
+      "lat": -1.221,
+      "lng": 37.2985
+    },
+    {
+      "id": 24,
+      "name": "IKULU NURSERY SCHOOL",
+      "code": "016077038101801",
+      "ward": "Kangundo North",
+      "registeredVoters": 178,
+      "lat": -1.2195,
+      "lng": 37.2975
+    },
+    {
+      "id": 25,
+      "name": "KATHINZIONI NURSERY SCHOOL",
+      "code": "016077038101901",
+      "ward": "Kangundo North",
+      "registeredVoters": 580,
+      "lat": -1.2215,
+      "lng": 37.2995
+    },
+    {
+      "id": 26,
+      "name": "KAWAUNI SECONDARY SCHOOL",
+      "code": "016077038102001",
+      "ward": "Kangundo North",
+      "registeredVoters": 287,
+      "lat": -1.2305,
+      "lng": 37.2925
+    },
+    {
+      "id": 27,
+      "name": "KIKAMBUANI AIC SECONDARY SCHOOL",
+      "code": "016077038102101",
+      "ward": "Kangundo North",
+      "registeredVoters": 697,
+      "lat": -1.2285,
+      "lng": 37.3075
+    },
+    {
+      "id": 28,
+      "name": "ST. MARTINS' KITWII SECONDARY SCHOOL",
+      "code": "016077038102201",
+      "ward": "Kangundo North",
+      "registeredVoters": 538,
+      "lat": -1.2172,
+      "lng": 37.2958
+    },
+    {
+      "id": 29,
+      "name": "KWA MBALU PRIMARY SCHOOL",
+      "code": "016077038102301",
+      "ward": "Kangundo North",
+      "registeredVoters": 183,
+      "lat": -1.2192,
+      "lng": 37.3025
+    },
+    {
+      "id": 30,
+      "name": "KWA MWILILE DEB PRIMARY SCHOOL",
+      "code": "016077038102401",
+      "ward": "Kangundo North",
+      "registeredVoters": 412,
+      "lat": -1.236,
+      "lng": 37.301
+    },
+    {
+      "id": 31,
+      "name": "MISYANI YOUTH POLYTECHNIC",
+      "code": "016077038102501",
+      "ward": "Kangundo North",
+      "registeredVoters": 159,
+      "lat": -1.2318,
+      "lng": 37.3035
+    },
+    {
+      "id": 32,
+      "name": "ST MICHAEL UNYUANI SECONDARY SCHOOL",
+      "code": "016077038102601",
+      "ward": "Kangundo North",
+      "registeredVoters": 264,
+      "lat": -1.2325,
+      "lng": 37.2992
+    },
+    {
+      "id": 33,
+      "name": "UNYUANI COFFEE FACTORY OFFICES",
+      "code": "016077038102701",
+      "ward": "Kangundo North",
+      "registeredVoters": 226,
+      "lat": -1.233,
+      "lng": 37.2998
+    },
+    {
+      "id": 34,
+      "name": "KILALANI DEB PRIMARY SCHOOL",
+      "code": "016077038202801",
+      "ward": "Kangundo Central",
+      "registeredVoters": 531,
+      "lat": -1.2901,
+      "lng": 37.3389
+    },
+    {
+      "id": 35,
+      "name": "KILALANI DEB PRIMARY SCHOOL",
+      "code": "016077038202802",
+      "ward": "Kangundo Central",
+      "registeredVoters": 530,
+      "lat": -1.2901,
+      "lng": 37.3389
+    },
+    {
+      "id": 36,
+      "name": "KANGUNDO DEB INTEGRATED PRIMARY SCHOOL",
+      "code": "016077038202901",
+      "ward": "Kangundo Central",
+      "registeredVoters": 539,
+      "lat": -1.2978,
+      "lng": 37.3474
+    },
+    {
+      "id": 37,
+      "name": "KANGUNDO DEB INTEGRATED PRIMARY SCHOOL",
+      "code": "016077038202902",
+      "ward": "Kangundo Central",
+      "registeredVoters": 539,
+      "lat": -1.2978,
+      "lng": 37.3474
+    },
+    {
+      "id": 38,
+      "name": "A.I.C MATETANI PRIMARY SCHOOL",
+      "code": "016077038203001",
+      "ward": "Kangundo Central",
+      "registeredVoters": 509,
+      "lat": -1.294,
+      "lng": 37.342
+    },
+    {
+      "id": 39,
+      "name": "A.I.C MATETANI PRIMARY SCHOOL",
+      "code": "016077038203002",
+      "ward": "Kangundo Central",
+      "registeredVoters": 508,
+      "lat": -1.294,
+      "lng": 37.342
+    },
+    {
+      "id": 40,
+      "name": "MULINGANA PRIMARY SCHOOL",
+      "code": "016077038203101",
+      "ward": "Kangundo Central",
+      "registeredVoters": 522,
+      "lat": -1.296,
+      "lng": 37.345
+    },
+    {
+      "id": 41,
+      "name": "KAMBAI PRIMARY SCHOOL",
+      "code": "016077038203201",
+      "ward": "Kangundo Central",
+      "registeredVoters": 375,
+      "lat": -1.288,
+      "lng": 37.338
+    },
+    {
+      "id": 42,
+      "name": "KAMBAI PRIMARY SCHOOL",
+      "code": "016077038203202",
+      "ward": "Kangundo Central",
+      "registeredVoters": 374,
+      "lat": -1.288,
+      "lng": 37.338
+    },
+    {
+      "id": 43,
+      "name": "KANGUNDO SOCIAL HALL",
+      "code": "016077038203301",
+      "ward": "Kangundo Central",
+      "registeredVoters": 607,
+      "lat": -1.2985,
+      "lng": 37.3465
+    },
+    {
+      "id": 44,
+      "name": "KANGUNDO SOCIAL HALL",
+      "code": "016077038203302",
+      "ward": "Kangundo Central",
+      "registeredVoters": 607,
+      "lat": -1.2985,
+      "lng": 37.3465
+    },
+    {
+      "id": 45,
+      "name": "KANGUNDO SOCIAL HALL",
+      "code": "016077038203303",
+      "ward": "Kangundo Central",
+      "registeredVoters": 607,
+      "lat": -1.2985,
+      "lng": 37.3465
+    },
+    {
+      "id": 46,
+      "name": "KANGUNDO SOCIAL HALL",
+      "code": "016077038203304",
+      "ward": "Kangundo Central",
+      "registeredVoters": 606,
+      "lat": -1.2985,
+      "lng": 37.3465
+    },
+    {
+      "id": 47,
+      "name": "KANGUNDO SOCIAL HALL",
+      "code": "016077038203305",
+      "ward": "Kangundo Central",
+      "registeredVoters": 606,
+      "lat": -1.2985,
+      "lng": 37.3465
+    },
+    {
+      "id": 48,
+      "name": "AIC KANGUNDO PRIMARY SCHOOL",
+      "code": "016077038203401",
+      "ward": "Kangundo Central",
+      "registeredVoters": 378,
+      "lat": -1.297,
+      "lng": 37.348
+    },
+    {
+      "id": 49,
+      "name": "AIC KANGUNDO PRIMARY SCHOOL",
+      "code": "016077038203402",
+      "ward": "Kangundo Central",
+      "registeredVoters": 377,
+      "lat": -1.297,
+      "lng": 37.348
+    },
+    {
+      "id": 50,
+      "name": "ABC MASEWANI PRIMARY SCHOOL",
+      "code": "016077038203501",
+      "ward": "Kangundo Central",
+      "registeredVoters": 367,
+      "lat": -1.293,
+      "lng": 37.341
+    },
+    {
+      "id": 51,
+      "name": "ABC MASEWANI PRIMARY SCHOOL",
+      "code": "016077038203502",
+      "ward": "Kangundo Central",
+      "registeredVoters": 367,
+      "lat": -1.293,
+      "lng": 37.341
+    },
+    {
+      "id": 52,
+      "name": "KYAI PRIMARY SCHOOL",
+      "code": "016077038203601",
+      "ward": "Kangundo Central",
+      "registeredVoters": 638,
+      "lat": -1.295,
+      "lng": 37.344
+    },
+    {
+      "id": 53,
+      "name": "MBONDONI PRIMARY SCHOOL",
+      "code": "016077038203701",
+      "ward": "Kangundo Central",
+      "registeredVoters": 442,
+      "lat": -1.291,
+      "lng": 37.34
+    },
+    {
+      "id": 54,
+      "name": "MBONDONI PRIMARY SCHOOL",
+      "code": "016077038203702",
+      "ward": "Kangundo Central",
+      "registeredVoters": 442,
+      "lat": -1.291,
+      "lng": 37.34
+    },
+    {
+      "id": 55,
+      "name": "KANZOKEA PRIMARY SCHOOL",
+      "code": "016077038203801",
+      "ward": "Kangundo Central",
+      "registeredVoters": 490,
+      "lat": -1.2895,
+      "lng": 37.3395
+    },
+    {
+      "id": 56,
+      "name": "NGULINI PRIMARY SCHOOL",
+      "code": "016077038203901",
+      "ward": "Kangundo Central",
+      "registeredVoters": 345,
+      "lat": -1.292,
+      "lng": 37.343
+    },
+    {
+      "id": 57,
+      "name": "KYAAKA PRIMARY SCHOOL",
+      "code": "016077038204001",
+      "ward": "Kangundo Central",
+      "registeredVoters": 564,
+      "lat": -1.2945,
+      "lng": 37.3435
+    },
+    {
+      "id": 58,
+      "name": "KANGUNDO HIGH SCHOOL",
+      "code": "016077038204101",
+      "ward": "Kangundo Central",
+      "registeredVoters": 374,
+      "lat": -1.299,
+      "lng": 37.347
+    },
+    {
+      "id": 59,
+      "name": "KANGUNDO MARKET HALL",
+      "code": "016077038204201",
+      "ward": "Kangundo Central",
+      "registeredVoters": 563,
+      "lat": -1.2988,
+      "lng": 37.346
+    },
+    {
+      "id": 60,
+      "name": "KANGUNDO MARKET HALL",
+      "code": "016077038204202",
+      "ward": "Kangundo Central",
+      "registeredVoters": 562,
+      "lat": -1.2988,
+      "lng": 37.346
+    },
+    {
+      "id": 61,
+      "name": "KILALANI COFFEE FACTORY OFFICES",
+      "code": "016077038204301",
+      "ward": "Kangundo Central",
+      "registeredVoters": 424,
+      "lat": -1.2905,
+      "lng": 37.3392
+    },
+    {
+      "id": 62,
+      "name": "KITHUMUONI NURSERY SCHOOL",
+      "code": "016077038204401",
+      "ward": "Kangundo Central",
+      "registeredVoters": 515,
+      "lat": -1.2955,
+      "lng": 37.3445
+    },
+    {
+      "id": 63,
+      "name": "KWAMANGU COFFEE FACTORY OFFICES",
+      "code": "016077038204501",
+      "ward": "Kangundo Central",
+      "registeredVoters": 336,
+      "lat": -1.2935,
+      "lng": 37.3415
+    },
+    {
+      "id": 64,
+      "name": "MATETANI SECONDARY SCHOOL",
+      "code": "016077038204601",
+      "ward": "Kangundo Central",
+      "registeredVoters": 313,
+      "lat": -1.2942,
+      "lng": 37.3422
+    },
+    {
+      "id": 65,
+      "name": "MUISUNI COFFEE FACTORY OFFICES",
+      "code": "016077038204701",
+      "ward": "Kangundo Central",
+      "registeredVoters": 545,
+      "lat": -1.2962,
+      "lng": 37.3452
+    },
+    {
+      "id": 66,
+      "name": "ST. THOMAS AQUINAS MULINGANA SECONDARY SCHOOL",
+      "code": "016077038204801",
+      "ward": "Kangundo Central",
+      "registeredVoters": 435,
+      "lat": -1.2963,
+      "lng": 37.3453
+    },
+    {
+      "id": 67,
+      "name": "KWA KITUNA NURSERY SCHOOL",
+      "code": "016077038204901",
+      "ward": "Kangundo Central",
+      "registeredVoters": 565,
+      "lat": -1.2975,
+      "lng": 37.3462
+    },
+    {
+      "id": 68,
+      "name": "KAVILINGUNI DAY & BOARDING PRIMARY SCHOOL",
+      "code": "016077038305001",
+      "ward": "Kangundo East",
+      "registeredVoters": 354,
+      "lat": -1.265,
+      "lng": 37.368
+    },
+    {
+      "id": 69,
+      "name": "KATHIINI PRIMARY SCHOOL",
+      "code": "016077038305101",
+      "ward": "Kangundo East",
+      "registeredVoters": 403,
+      "lat": -1.262,
+      "lng": 37.365
+    },
+    {
+      "id": 70,
+      "name": "KATHIINI PRIMARY SCHOOL",
+      "code": "016077038305102",
+      "ward": "Kangundo East",
+      "registeredVoters": 402,
+      "lat": -1.262,
+      "lng": 37.365
+    },
+    {
+      "id": 71,
+      "name": "KWA KATHULE PRIMARY SCHOOL",
+      "code": "016077038305201",
+      "ward": "Kangundo East",
+      "registeredVoters": 560,
+      "lat": -1.268,
+      "lng": 37.37
+    },
+    {
+      "id": 72,
+      "name": "KATHOME DEB PRIMARY SCHOOL",
+      "code": "016077038305301",
+      "ward": "Kangundo East",
+      "registeredVoters": 422,
+      "lat": -1.27,
+      "lng": 37.372
+    },
+    {
+      "id": 73,
+      "name": "KATHOME DEB PRIMARY SCHOOL",
+      "code": "016077038305302",
+      "ward": "Kangundo East",
+      "registeredVoters": 422,
+      "lat": -1.27,
+      "lng": 37.372
+    },
+    {
+      "id": 74,
+      "name": "KAMANZI S.A PRIMARY SCHOOL",
+      "code": "016077038305401",
+      "ward": "Kangundo East",
+      "registeredVoters": 496,
+      "lat": -1.266,
+      "lng": 37.369
+    },
+    {
+      "id": 75,
+      "name": "IIA-ITUNE PRIMARY SCHOOL",
+      "code": "016077038305501",
+      "ward": "Kangundo East",
+      "registeredVoters": 471,
+      "lat": -1.264,
+      "lng": 37.367
+    },
+    {
+      "id": 76,
+      "name": "IIA-ITUNE PRIMARY SCHOOL",
+      "code": "016077038305502",
+      "ward": "Kangundo East",
+      "registeredVoters": 470,
+      "lat": -1.264,
+      "lng": 37.367
+    },
+    {
+      "id": 77,
+      "name": "MATITHINI PRIMARY SCHOOL",
+      "code": "016077038305601",
+      "ward": "Kangundo East",
+      "registeredVoters": 440,
+      "lat": -1.272,
+      "lng": 37.374
+    },
+    {
+      "id": 78,
+      "name": "KINYUNGU PRIMARY SCHOOL",
+      "code": "016077038305701",
+      "ward": "Kangundo East",
+      "registeredVoters": 468,
+      "lat": -1.263,
+      "lng": 37.366
+    },
+    {
+      "id": 79,
+      "name": "MANYATTA PRIMARY SCHOOL",
+      "code": "016077038305801",
+      "ward": "Kangundo East",
+      "registeredVoters": 562,
+      "lat": -1.271,
+      "lng": 37.373
+    },
+    {
+      "id": 80,
+      "name": "MIU ABC PRIMARY SCHOOL",
+      "code": "016077038305901",
+      "ward": "Kangundo East",
+      "registeredVoters": 447,
+      "lat": -1.267,
+      "lng": 37.371
+    },
+    {
+      "id": 81,
+      "name": "KITHUIANI PRIMARY SCHOOL",
+      "code": "016077038306001",
+      "ward": "Kangundo East",
+      "registeredVoters": 418,
+      "lat": -1.269,
+      "lng": 37.3715
+    },
+    {
+      "id": 82,
+      "name": "NGOMANI PRIMARY SCHOOL",
+      "code": "016077038306101",
+      "ward": "Kangundo East",
+      "registeredVoters": 332,
+      "lat": -1.2645,
+      "lng": 37.3685
+    },
+    {
+      "id": 83,
+      "name": "KIVI DEB PRIMARY SCHOOL",
+      "code": "016077038306201",
+      "ward": "Kangundo East",
+      "registeredVoters": 551,
+      "lat": -1.273,
+      "lng": 37.375
+    },
+    {
+      "id": 84,
+      "name": "MUSUSYE PRIMARY SCHOOL",
+      "code": "016077038306301",
+      "ward": "Kangundo East",
+      "registeredVoters": 401,
+      "lat": -1.2715,
+      "lng": 37.3735
+    },
+    {
+      "id": 85,
+      "name": "MALATANI PRIMARY SCHOOL",
+      "code": "016077038306401",
+      "ward": "Kangundo East",
+      "registeredVoters": 501,
+      "lat": -1.2655,
+      "lng": 37.3695
+    },
+    {
+      "id": 86,
+      "name": "KITHUNTHI S.A PRIMARY SCHOOL",
+      "code": "016077038306501",
+      "ward": "Kangundo East",
+      "registeredVoters": 544,
+      "lat": -1.2665,
+      "lng": 37.3705
+    },
+    {
+      "id": 87,
+      "name": "IMILINI SECONDARY SCHOOL",
+      "code": "016077038306601",
+      "ward": "Kangundo East",
+      "registeredVoters": 698,
+      "lat": -1.2675,
+      "lng": 37.3712
+    },
+    {
+      "id": 88,
+      "name": "KWA MWENZE PRIMARY SCHOOL",
+      "code": "016077038306701",
+      "ward": "Kangundo East",
+      "registeredVoters": 251,
+      "lat": -1.2635,
+      "lng": 37.3665
+    },
+    {
+      "id": 89,
+      "name": "KIVAANI TOWNSHIP PRIMARY SCHOOL",
+      "code": "016077038306801",
+      "ward": "Kangundo East",
+      "registeredVoters": 261,
+      "lat": -1.261,
+      "lng": 37.364
+    },
+    {
+      "id": 90,
+      "name": "MUKUYUNI S.A PRIMARY SCHOOL",
+      "code": "016077038306901",
+      "ward": "Kangundo East",
+      "registeredVoters": 582,
+      "lat": -1.2695,
+      "lng": 37.3718
+    },
+    {
+      "id": 91,
+      "name": "MUKUYUNI S.A PRIMARY SCHOOL",
+      "code": "016077038306902",
+      "ward": "Kangundo East",
+      "registeredVoters": 581,
+      "lat": -1.2695,
+      "lng": 37.3718
+    },
+    {
+      "id": 92,
+      "name": "A.B.C KATATHA MAWEU PRIMARY SCHOOL KASEVENI",
+      "code": "016077038307001",
+      "ward": "Kangundo East",
+      "registeredVoters": 269,
+      "lat": -1.2705,
+      "lng": 37.3725
+    },
+    {
+      "id": 93,
+      "name": "KAMANZI SECONDARY SCHOOL",
+      "code": "016077038307101",
+      "ward": "Kangundo East",
+      "registeredVoters": 408,
+      "lat": -1.2662,
+      "lng": 37.3692
+    },
+    {
+      "id": 94,
+      "name": "KAVILINGUNI HIGH SCHOOL",
+      "code": "016077038307201",
+      "ward": "Kangundo East",
+      "registeredVoters": 446,
+      "lat": -1.2652,
+      "lng": 37.3682
+    },
+    {
+      "id": 95,
+      "name": "KISEKINI NURSERY SCHOOL",
+      "code": "016077038307301",
+      "ward": "Kangundo East",
+      "registeredVoters": 427,
+      "lat": -1.2625,
+      "lng": 37.3655
+    },
+    {
+      "id": 96,
+      "name": "KWA KATHULE SECONDARY SCHOOL",
+      "code": "016077038307401",
+      "ward": "Kangundo East",
+      "registeredVoters": 284,
+      "lat": -1.2682,
+      "lng": 37.3702
+    },
+    {
+      "id": 97,
+      "name": "KYAANA COFFEE FACTORY OFFICES",
+      "code": "016077038307501",
+      "ward": "Kangundo East",
+      "registeredVoters": 469,
+      "lat": -1.2742,
+      "lng": 37.376
+    },
+    {
+      "id": 98,
+      "name": "KAWETHEI SA PRIMARY SCHOOL",
+      "code": "016077038407601",
+      "ward": "Kangundo West",
+      "registeredVoters": 680,
+      "lat": -1.285,
+      "lng": 37.32
+    },
+    {
+      "id": 99,
+      "name": "KAWETHEI SA PRIMARY SCHOOL",
+      "code": "016077038407602",
+      "ward": "Kangundo West",
+      "registeredVoters": 679,
+      "lat": -1.285,
+      "lng": 37.32
+    },
+    {
+      "id": 100,
+      "name": "KWA NDETO PRIMARY SCHOOL",
+      "code": "016077038407701",
+      "ward": "Kangundo West",
+      "registeredVoters": 517,
+      "lat": -1.288,
+      "lng": 37.318
+    },
+    {
+      "id": 101,
+      "name": "KIKALU PRIMARY SCHOOL",
+      "code": "016077038407801",
+      "ward": "Kangundo West",
+      "registeredVoters": 384,
+      "lat": -1.282,
+      "lng": 37.322
+    },
+    {
+      "id": 102,
+      "name": "KIKALU PRIMARY SCHOOL",
+      "code": "016077038407802",
+      "ward": "Kangundo West",
+      "registeredVoters": 384,
+      "lat": -1.282,
+      "lng": 37.322
+    },
+    {
+      "id": 103,
+      "name": "KAWETHEI HGM PRIMARY SCHOOL",
+      "code": "016077038407901",
+      "ward": "Kangundo West",
+      "registeredVoters": 518,
+      "lat": -1.286,
+      "lng": 37.321
+    },
+    {
+      "id": 104,
+      "name": "KAWETHEI HGM PRIMARY SCHOOL",
+      "code": "016077038407902",
+      "ward": "Kangundo West",
+      "registeredVoters": 517,
+      "lat": -1.286,
+      "lng": 37.321
+    },
+    {
+      "id": 105,
+      "name": "KATHAANA PRIMARY SCHOOL",
+      "code": "016077038408001",
+      "ward": "Kangundo West",
+      "registeredVoters": 525,
+      "lat": -1.289,
+      "lng": 37.317
+    },
+    {
+      "id": 106,
+      "name": "KATHAANA PRIMARY SCHOOL",
+      "code": "016077038408002",
+      "ward": "Kangundo West",
+      "registeredVoters": 525,
+      "lat": -1.289,
+      "lng": 37.317
+    },
+    {
+      "id": 107,
+      "name": "KATHAANA PRIMARY SCHOOL",
+      "code": "016077038408003",
+      "ward": "Kangundo West",
+      "registeredVoters": 525,
+      "lat": -1.289,
+      "lng": 37.317
+    },
+    {
+      "id": 108,
+      "name": "MBUSYANI PRIMARY SCHOOL",
+      "code": "016077038408101",
+      "ward": "Kangundo West",
+      "registeredVoters": 596,
+      "lat": -1.287,
+      "lng": 37.319
+    },
+    {
+      "id": 109,
+      "name": "KYEVALUKI PRIMARY SCHOOL",
+      "code": "016077038408201",
+      "ward": "Kangundo West",
+      "registeredVoters": 395,
+      "lat": -1.284,
+      "lng": 37.323
+    },
+    {
+      "id": 110,
+      "name": "KYEVALUKI PRIMARY SCHOOL",
+      "code": "016077038408202",
+      "ward": "Kangundo West",
+      "registeredVoters": 394,
+      "lat": -1.284,
+      "lng": 37.323
+    },
+    {
+      "id": 111,
+      "name": "KIOMO PRIMARY SCHOOL",
+      "code": "016077038408301",
+      "ward": "Kangundo West",
+      "registeredVoters": 584,
+      "lat": -1.29,
+      "lng": 37.316
+    },
+    {
+      "id": 112,
+      "name": "KAKUYUNI PRIMARY SCHOOL",
+      "code": "016077038408401",
+      "ward": "Kangundo West",
+      "registeredVoters": 547,
+      "lat": -1.283,
+      "lng": 37.324
+    },
+    {
+      "id": 113,
+      "name": "KAKUYUNI PRIMARY SCHOOL",
+      "code": "016077038408402",
+      "ward": "Kangundo West",
+      "registeredVoters": 547,
+      "lat": -1.283,
+      "lng": 37.324
+    },
+    {
+      "id": 114,
+      "name": "KAKUYUNI PRIMARY SCHOOL",
+      "code": "016077038408403",
+      "ward": "Kangundo West",
+      "registeredVoters": 547,
+      "lat": -1.283,
+      "lng": 37.324
+    },
+    {
+      "id": 115,
+      "name": "KAKUTHA PRIMARY SCHOOL",
+      "code": "016077038408501",
+      "ward": "Kangundo West",
+      "registeredVoters": 411,
+      "lat": -1.281,
+      "lng": 37.326
+    },
+    {
+      "id": 116,
+      "name": "KAKUTHA PRIMARY SCHOOL",
+      "code": "016077038408502",
+      "ward": "Kangundo West",
+      "registeredVoters": 410,
+      "lat": -1.281,
+      "lng": 37.326
+    },
+    {
+      "id": 117,
+      "name": "KAMWANYANI PRIMARY SCHOOL",
+      "code": "016077038408601",
+      "ward": "Kangundo West",
+      "registeredVoters": 360,
+      "lat": -1.292,
+      "lng": 37.315
+    },
+    {
+      "id": 118,
+      "name": "KAMWANYANI PRIMARY SCHOOL",
+      "code": "016077038408602",
+      "ward": "Kangundo West",
+      "registeredVoters": 359,
+      "lat": -1.292,
+      "lng": 37.315
+    },
+    {
+      "id": 119,
+      "name": "S.A SYANTHI PRIMARY SCHOOL",
+      "code": "016077038408701",
+      "ward": "Kangundo West",
+      "registeredVoters": 585,
+      "lat": -1.2875,
+      "lng": 37.3185
+    },
+    {
+      "id": 120,
+      "name": "S.A SYANTHI PRIMARY SCHOOL",
+      "code": "016077038408702",
+      "ward": "Kangundo West",
+      "registeredVoters": 584,
+      "lat": -1.2875,
+      "lng": 37.3185
+    },
+    {
+      "id": 121,
+      "name": "KITONGI PRIMARY SCHOOL",
+      "code": "016077038408801",
+      "ward": "Kangundo West",
+      "registeredVoters": 671,
+      "lat": -1.28,
+      "lng": 37.327
+    },
+    {
+      "id": 122,
+      "name": "SYANAMU PRIMARY SCHOOL",
+      "code": "016077038408901",
+      "ward": "Kangundo West",
+      "registeredVoters": 324,
+      "lat": -1.2895,
+      "lng": 37.3165
+    },
+    {
+      "id": 123,
+      "name": "KAKUYUNI SECONDARY SCHOOL",
+      "code": "016077038409001",
+      "ward": "Kangundo West",
+      "registeredVoters": 273,
+      "lat": -1.2832,
+      "lng": 37.3242
+    },
+    {
+      "id": 124,
+      "name": "KAWETHEI SECONDARY SCHOOL",
+      "code": "016077038409101",
+      "ward": "Kangundo West",
+      "registeredVoters": 510,
+      "lat": -1.2852,
+      "lng": 37.3202
+    },
+    {
+      "id": 125,
+      "name": "KAWETHEI SECONDARY SCHOOL",
+      "code": "016077038409102",
+      "ward": "Kangundo West",
+      "registeredVoters": 510,
+      "lat": -1.2852,
+      "lng": 37.3202
+    },
+    {
+      "id": 126,
+      "name": "KIKONDENI PRIMARY SCHOOL",
+      "code": "016077038409201",
+      "ward": "Kangundo West",
+      "registeredVoters": 391,
+      "lat": -1.2915,
+      "lng": 37.3155
+    },
+    {
+      "id": 127,
+      "name": "KILINDILONI PRIMARY SCHOOL",
+      "code": "016077038409301",
+      "ward": "Kangundo West",
+      "registeredVoters": 410,
+      "lat": -1.2805,
+      "lng": 37.3265
+    },
+    {
+      "id": 128,
+      "name": "KYEVALUKI SECONDARY SCHOOL",
+      "code": "016077038409401",
+      "ward": "Kangundo West",
+      "registeredVoters": 604,
+      "lat": -1.2842,
+      "lng": 37.3232
+    },
+    {
+      "id": 129,
+      "name": "MBUSYANI SECONDARY SCHOOL",
+      "code": "016077038409501",
+      "ward": "Kangundo West",
+      "registeredVoters": 531,
+      "lat": -1.2872,
+      "lng": 37.3192
+    },
+    {
+      "id": 130,
+      "name": "MUKUNIKE AIC PRIMARY SCHOOL",
+      "code": "016077038409601",
+      "ward": "Kangundo West",
+      "registeredVoters": 219,
+      "lat": -1.291,
+      "lng": 37.3158
+    }
+  ],
+  "WARDS": [
+    "Kangundo North",
+    "Kangundo Central",
+    "Kangundo East",
+    "Kangundo West"
+  ],
+  "ADMIN": {
+    "username": "admin",
+    "pin": "admin2024"
+  },
+  "WARD_COORDINATORS": [
+    {
+      "id": "WC01",
+      "name": "Ward Coordinator - Kangundo North",
+      "username": "wc.kangundonorth",
+      "pin": "3001",
+      "ward": "Kangundo North",
+      "phone": "0711000001"
+    },
+    {
+      "id": "WC02",
+      "name": "Ward Coordinator - Kangundo Central",
+      "username": "wc.kangundocentral",
+      "pin": "3002",
+      "ward": "Kangundo Central",
+      "phone": "0711000002"
+    },
+    {
+      "id": "WC03",
+      "name": "Ward Coordinator - Kangundo East",
+      "username": "wc.kangundoeast",
+      "pin": "3003",
+      "ward": "Kangundo East",
+      "phone": "0711000003"
+    },
+    {
+      "id": "WC04",
+      "name": "Ward Coordinator - Kangundo West",
+      "username": "wc.kangundowest",
+      "pin": "3004",
+      "ward": "Kangundo West",
+      "phone": "0711000004"
+    }
+  ],
+  "TALLY_CENTRE": {
+    "name": "Kangundo DEB Integrated Primary School",
+    "lat": -1.2978,
+    "lng": 37.3474,
+    "radius_km": 1.0
+  },
+  "GEO_CONFIG": {
+    "station_radius_km": 1.0,
+    "tally_centre_radius_km": 1.0,
+    "enforcement": true
+  }
+}
