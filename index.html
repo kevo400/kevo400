@@ -163,9 +163,20 @@ const FB = {
 <!-- LOADING SCREEN -->
 <div id="loader">
   <h1>IEBC MiRRoR</h1>
-
   <div class="spinner"></div>
+  <p id="load-status" style="color:rgba(255,255,255,0.6);font-size:13px;margin-top:10px;">Initialising...</p>
 </div>
+<script>
+  // Show progress messages while Babel compiles (mobile can take 10-20s)
+  const msgs = ["Initialising...","Loading resources...","Compiling app...","Almost ready...","Connecting to server..."];
+  let mi = 0;
+  const statusEl = document.getElementById("load-status");
+  const msgInterval = setInterval(() => {
+    mi = (mi + 1) % msgs.length;
+    if(statusEl) statusEl.textContent = msgs[mi];
+  }, 3000);
+  window._clearMsgInterval = () => clearInterval(msgInterval);
+</script>
 
 <div id="root"><div class="boot-msg">Loading…</div></div>
 
@@ -2554,6 +2565,7 @@ const LOADER_MIN_MS = 1500; // keep the splash visible at least this long
 const bootStartedAt = Date.now();
 
 function hideLoader() {
+    if (window._clearMsgInterval) window._clearMsgInterval();
   const wait = Math.max(0, LOADER_MIN_MS - (Date.now() - bootStartedAt));
   setTimeout(() => {
     const loader = document.getElementById("loader");
@@ -2600,25 +2612,26 @@ async function bootstrap() {
   });
   AGENTS = defaultAgents;
 
-  // ── Load overrides from Supabase ───────────────────────────────────────────
+  // ── Load overrides from Supabase (with 5s timeout so app never hangs) ──────
+  const withTimeout = (promise, ms) => Promise.race([
+    promise,
+    new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), ms))
+  ]);
+
   try {
-    const sbPin = await FB.getAdminPin();
+    const sbPin = await withTimeout(FB.getAdminPin(), 5000);
     if (sbPin) ADMIN.pin = sbPin;
-  } catch(e) {
-    console.warn("Could not load PIN from Supabase", e);
-  }
+  } catch(e) { console.warn("Supabase PIN load skipped:", e.message); }
 
   try {
-    // Agent list (admin edits persist in Supabase)
-    const fbAgents = await FB.getAgents();
+    const fbAgents = await withTimeout(FB.getAgents(), 5000);
     if (fbAgents && Array.isArray(fbAgents) && fbAgents.length > 0) AGENTS = fbAgents;
-  } catch(e) {}
+  } catch(e) { console.warn("Supabase agents load skipped:", e.message); }
 
   try {
-    // Ward coordinator list
-    const fbCoords = await FB.getCoordinators();
+    const fbCoords = await withTimeout(FB.getCoordinators(), 5000);
     if (fbCoords && Array.isArray(fbCoords) && fbCoords.length > 0) WARD_COORDINATORS = fbCoords;
-  } catch(e) {}
+  } catch(e) { console.warn("Supabase coordinators load skipped:", e.message); }
 
   // db shim — kept for any remaining legacy references
   db = { results: {}, editRequests: {}, verifications: {} };
