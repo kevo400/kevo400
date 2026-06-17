@@ -54,24 +54,24 @@ const FB = {
   setEditRequest: async (reqId, data) => { await _upsert("iebc_edit_requests", "req_id", String(reqId), data); },
 
   getAdminPin: async () => {
-    const { data } = await _sb.from("iebc_config").select("value").eq("key", "admin_pin").single();
-    return data ? data.value : null;
+    const { data } = await _sb.from("iebc_config").select("value").eq("key", "admin_pin").limit(1);
+    return (data && data.length > 0) ? data[0].value : null;
   },
   setAdminPin: async (pin) => {
     await _sb.from("iebc_config").upsert({ key: "admin_pin", value: pin }, { onConflict: "key" });
   },
 
   getAgents: async () => {
-    const { data } = await _sb.from("iebc_config").select("value").eq("key", "agents").single();
-    return data ? JSON.parse(data.value) : null;
+    const { data } = await _sb.from("iebc_config").select("value").eq("key", "agents").limit(1);
+    return (data && data.length > 0) ? JSON.parse(data[0].value) : null;
   },
   setAgents: async (agents) => {
     await _sb.from("iebc_config").upsert({ key: "agents", value: JSON.stringify(agents) }, { onConflict: "key" });
   },
 
   getCoordinators: async () => {
-    const { data } = await _sb.from("iebc_config").select("value").eq("key", "coordinators").single();
-    return data ? JSON.parse(data.value) : null;
+    const { data } = await _sb.from("iebc_config").select("value").eq("key", "coordinators").limit(1);
+    return (data && data.length > 0) ? JSON.parse(data[0].value) : null;
   },
   setCoordinators: async (coords) => {
     await _sb.from("iebc_config").upsert({ key: "coordinators", value: JSON.stringify(coords) }, { onConflict: "key" });
